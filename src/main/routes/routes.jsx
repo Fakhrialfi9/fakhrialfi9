@@ -7,7 +7,7 @@ import Pages from "../../ui/views/pages.jsx";
 const routes = () => (
   <Router>
     <Routes>
-      <Route path='/' element={<Layout />}>
+      <Route path='fakhrialfi9/' element={<Layout />}>
         <Route index element={<Pages />} />
       </Route>
     </Routes>
