@@ -1,0 +1,92 @@
+.main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.dock {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  background-color: rgb(230, 233, 237, 0.25);
+  border: 0.06rem solid var(--diver-color-solid-0);
+  backdrop-filter: blur(1rem);
+  border-radius: var(--border-radius-2xl) var(--border-radius-2xl) 0 0;
+  z-index: 9999;
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
+.content > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1rem;
+}
+
+.content > ul > li {
+  line-height: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 2.5rem;
+  max-width: 2.5rem;
+  height: 2.5rem;
+  max-height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50%;
+  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.content > ul > li:hover {
+  transform: scale(1.35) translateY(-10px);
+  background-color: var(--background-color-solid-300);
+}

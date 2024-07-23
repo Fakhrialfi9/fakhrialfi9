@@ -1,0 +1,444 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.experience {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  background: radial-gradient(circle, rgba(155, 180, 202, 0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgba(155, 180, 202, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: var(--background-color-solid-100);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2.5rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.heading > span {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.heading > span > code {
+  font-size: 0.85rem;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  color: var(--background-color-solid-0);
+  padding: 0.5rem 1.5rem;
+}
+
+.heading > span > h5 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.heading > span > p {
+  width: 70%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  clip-path: inset(0 -1.5rem);
+}
+
+.GlowLine:nth-child(1) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.05rem;
+  height: 100%;
+  background-image: linear-gradient(to right, #1bb2e1, #35597a, #1bb2e1, #35597a, #1bb2e1);
+  box-shadow: 0 0 1rem 0.015rem rgba(53, 89, 122, 1);
+  animation: glowingLine 2s ease-in-out infinite;
+}
+
+.GlowLine:nth-child(2) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.05rem;
+  height: 100%;
+  background-image: linear-gradient(to right, #1bb2e1, #35597a, #1bb2e1, #35597a, #1bb2e1);
+  box-shadow: 0 0 1rem 0.015rem rgba(53, 89, 122, 1);
+  animation: glowingLine 1.5s ease-in-out infinite;
+}
+
+.GlowLine:nth-child(3) {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.05rem;
+  height: 100%;
+  background-image: linear-gradient(to right, #1bb2e1, #35597a, #1bb2e1, #35597a, #1bb2e1);
+  box-shadow: 0 0 1rem 0.015rem rgba(53, 89, 122, 1);
+  animation: glowingLine 1s ease-in-out infinite;
+}
+
+@keyframes glowingLine {
+  0% {
+    height: 0;
+    top: 0;
+    opacity: 1;
+  }
+
+  90% {
+    height: 30%;
+    top: 90%;
+    opacity: 0.25;
+  }
+
+  95% {
+    height: 30%;
+    top: 95%;
+    opacity: 0.15;
+  }
+
+  98.5% {
+    height: 15%;
+    top: 98.5%;
+    opacity: 0.05;
+  }
+
+  100% {
+    height: 100%;
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+.box {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 7rem;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-left: 0.08rem solid var(--diver-color-solid-0);
+  z-index: 99 !important;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 0.1rem;
+  background: repeating-linear-gradient(
+    to right,
+    var(--diver-color-solid-500),
+    var(--diver-color-solid-500) 0.65rem,
+    transparent 0.65rem,
+    transparent 1rem
+  );
+}
+
+.box:last-child::before {
+  background: none;
+}
+
+.image {
+  position: absolute;
+  top: 2.25rem;
+  left: -1.5rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  max-height: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--background-color-solid-100);
+  border: 0.08rem solid var(--diver-color-solid-0);
+}
+
+.image > .border {
+  display: flex;
+  flex-direction: column;
+  width: 2.5rem;
+  max-width: 2.5rem;
+  height: 2.5rem;
+  max-height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.image > .border > img {
+  width: 80%;
+}
+
+.information {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0.5rem 1.25rem;
+  gap: 0.4rem;
+}
+
+.badges {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0.35rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  color: var(--background-color-solid-0);
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.date > h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color-solid-500);
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.headline > h5 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-color-solid-0);
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.location > h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color-solid-500);
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.description > p {
+  text-align: justify;
+  text-align-last: left;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color-solid-500);
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 576px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 576px) {
+  .experience {
+    padding: 1rem 0;
+  }
+
+  .heading > span > h5 {
+    font-size: 2rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 1rem;
+  }
+
+  .heading > span > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .information {
+    padding: 0.5rem 0 0.5rem 1.25rem;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 768px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .experience {
+    padding: 1rem 0;
+  }
+
+  .heading > span > h5 {
+    font-size: 2rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 1rem;
+  }
+
+  .heading > span > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

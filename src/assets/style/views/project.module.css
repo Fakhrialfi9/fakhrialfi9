@@ -1,0 +1,343 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 150vh;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 150vh;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  background: radial-gradient(circle, rgba(155, 180, 202, 0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgba(155, 180, 202, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: var(--background-color-solid-100);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2.5rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 2rem;
+}
+
+.heading > span {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.heading > span > code {
+  font-size: 0.85rem;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  color: var(--background-color-solid-0);
+  padding: 0.5rem 1.5rem;
+}
+
+.heading > span > h5 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.heading > span > p {
+  width: 70%;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between !important;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  min-height: 100%;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color-solid-0);
+  border-radius: var(--border-radius);
+  border: 0.05rem solid var(--diver-color-solid-0);
+  overflow: hidden !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 15rem;
+  max-height: 15rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.headline > h5 {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.headline > h6 {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.description > p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0.25rem;
+}
+
+.skill > span {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  border-radius: var(--border-radius-md);
+  background-color: var(--background-color-solid-200);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.footer > button {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius-md);
+  background-color: var(--secondary-color);
+}
+
+.footer > button > a {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--background-color-solid-0);
+}
+
+.footer > button:hover {
+  background-color: var(--text-color-solid-400);
+  color: var(--background-color-solid-0);
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 576px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 576px) {
+  .project {
+    padding: 0 0 1rem 0;
+  }
+
+  .heading > span > h5 {
+    font-size: 2rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 1rem;
+  }
+
+  .heading > span > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 768px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .project {
+    padding: 0 0 1rem 0;
+  }
+
+  .heading > span > h5 {
+    font-size: 2rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 1rem;
+  }
+
+  .heading > span > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
