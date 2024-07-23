@@ -2,7 +2,7 @@ const experienceData = [
   {
     date: "Januari 2024 - Maret 2024",
     department: "Web Developer & Graphic Design",
-    image: "fakhrialfi9/public/logo/Logo-AlAzhar.png",
+    image: "fakhrialfi9/logo/Logo-AlAzhar.png",
     headline: "Al - Azhar Syifa Budi Cibubur",
     location: "Kabupaten Bogor, Jawa Barat",
     description:
@@ -11,7 +11,7 @@ const experienceData = [
   {
     date: "September 2023 - Desember 2023",
     department: "Fullstack Web Developer Laravel",
-    image: "fakhrialfi9/public/logo/Logo-Agarindo.png",
+    image: "fakhrialfi9/logo/Logo-Agarindo.png",
     headline: "PT. Agarindo Biological Company",
     location: "Jakarta Barat, DKI Jakarta",
     description:
@@ -20,7 +20,7 @@ const experienceData = [
   {
     date: "Oktober 2019 - Agustus 2023",
     department: "Web Developer & Graphic Design",
-    image: "fakhrialfi9/public/logo/Logo-Epic.png",
+    image: "fakhrialfi9/logo/Logo-Epic.png",
     headline: "PT. EPIK Property Indonesia",
     location: "Tangerang Selatan, Banten",
     description:
@@ -29,7 +29,7 @@ const experienceData = [
   {
     date: "Desember 2019 - Juni 2020",
     department: "Freelance Web Developer",
-    image: "fakhrialfi9/public/logo/blankpages.png",
+    image: "fakhrialfi9/logo/blankpages.png",
     headline: "PT. Queenzacia Logistics",
     location: "Tangerang Selatan, Banten",
     description:

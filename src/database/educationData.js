@@ -2,7 +2,7 @@ const educationData = [
   {
     date: "Februari 2016 - Current",
     status: "Passed",
-    image: "fakhrialfi9/public/logo/universitasfajarmakassar.jpg",
+    image: "fakhrialfi9/logo/universitasfajarmakassar.jpg",
     headline: "Universitas Fajar Makassar",
     location: "Makassar, Sulawesi Selatan",
     description:
@@ -11,7 +11,7 @@ const educationData = [
   {
     date: "Februari 2013 - May 2015",
     status: "Passed",
-    image: "fakhrialfi9/public/logo/sman14bekasi.jpeg",
+    image: "fakhrialfi9/logo/sman14bekasi.jpeg",
     headline: "SMA Negeri 14 Bekasi",
     location: "Bekasi, Jawa Barat",
     description:
@@ -20,7 +20,7 @@ const educationData = [
   {
     date: "Maret 2010 - April 2013",
     status: "Passed",
-    image: "fakhrialfi9/public/logo/smpwidyaduutabekasi.jpg",
+    image: "fakhrialfi9/logo/smpwidyaduutabekasi.jpg",
     headline: "SMP Islam Terpadu Widya Duta",
     location: "Bekasi, Jawa Barat",
     description:
@@ -29,7 +29,7 @@ const educationData = [
   {
     date: "Maret 2004 - Juni 2009",
     status: "Passed",
-    image: "fakhrialfi9/public/logo/blankpages.png",
+    image: "fakhrialfi9/logo/blankpages.png",
     headline: "SD Negeri 03 Pagi Pulo Asem",
     location: "Jakarta Timur, DKI Jakarta",
     description:
