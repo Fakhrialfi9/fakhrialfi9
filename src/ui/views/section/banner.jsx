@@ -25,7 +25,7 @@ const Banner = () => {
               </span>
               <span>
                 <h5>{profileData.about.heading}</h5>
-                <p>{profileData.about.paragraph}</p>
+                <p>{profileData.about.description}</p>
               </span>
             </div>
             {/* Heading Content */}

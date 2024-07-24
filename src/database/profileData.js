@@ -5,8 +5,7 @@ const headingData = {
   },
   about: {
     heading: "About",
-    paragraph: `In 2023, I transitioned from a graphic designer to a frontend engineer. I had the opportunity to work with several companies that entrusted me with handling their website systems. This experience fueled my desire to continually learn and enhance my skills in frontend development.
-    Currently, I am actively engaged in projects utilizing tech stacks such as Vue.js and React.js for frontend development. Additionally, I have experience managing backend tasks with tech stacks including Node.js, Express.js, TypeScript, and JavaScript.`,
+    description: `In 2023, I transitioned from a graphic designer to a frontend engineer, working with various companies on their website systems. Currently, I am engaged in projects using tech stacks such as Vue.js and React.js for frontend development, and have experience managing backend tasks with Node.js, Express.js, TypeScript, and JavaScript.`,
   },
 };
 
