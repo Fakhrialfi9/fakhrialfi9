@@ -25,30 +25,34 @@ const Experience = () => {
               <div className={educationStyle.GlowLine}></div>
               <div className={educationStyle.GlowLine}></div>
               <div className={educationStyle.GlowLine}></div>
-              {educationData.map((item, index) => (
-                <div key={index} className={educationStyle.box}>
-                  <div className={educationStyle.image}>
-                    <div className={educationStyle.border}>
-                      <img src={item.image} alt={item.headline}></img>
+              {educationData.map((item, index) => {
+                const badge = item.status === "Incomplete" ? educationStyle.statusIncomplete : educationStyle.statusPassed;
+
+                return (
+                  <div key={index} className={educationStyle.box}>
+                    <div className={educationStyle.image}>
+                      <div className={educationStyle.border}>
+                        <img src={item.image} alt={item.headline} />
+                      </div>
+                    </div>
+                    <div className={educationStyle.information}>
+                      <code className={badge}>{item.status}</code>
+                      <div className={educationStyle.date}>
+                        <h6>{item.date}</h6>
+                      </div>
+                      <div className={educationStyle.headline}>
+                        <h5>{item.headline}</h5>
+                      </div>
+                      <div className={educationStyle.location}>
+                        <h6>{item.location}</h6>
+                      </div>
+                      <div className={educationStyle.description}>
+                        <p>{item.description}</p>
+                      </div>
                     </div>
                   </div>
-                  <div className={educationStyle.information}>
-                    <code className={educationStyle.badges}>{item.status}</code>
-                    <div className={educationStyle.date}>
-                      <h6>{item.date}</h6>
-                    </div>
-                    <div className={educationStyle.headline}>
-                      <h5>{item.headline}</h5>
-                    </div>
-                    <div className={educationStyle.location}>
-                      <h6>{item.location}</h6>
-                    </div>
-                    <div className={educationStyle.description}>
-                      <p>{item.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
             {/* Card Content */}
           </div>

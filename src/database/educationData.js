@@ -1,7 +1,7 @@
 const educationData = [
   {
     date: "Februari 2016 - Current",
-    status: "Passed",
+    status: "Incomplete",
     image: "/fakhrialfi9/logo/universitasfajarmakassar.jpg",
     headline: "Universitas Fajar Makassar",
     location: "Makassar, Sulawesi Selatan",

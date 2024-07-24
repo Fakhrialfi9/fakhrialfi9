@@ -286,7 +286,28 @@
   gap: 0.4rem;
 }
 
-.badges {
+.statusIncomplete {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0.35rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background-color: var(--danger-color);
+  color: var(--background-color-solid-0);
+}
+
+.statusPassed {
   position: absolute;
   top: 0.5rem;
   left: 0;
