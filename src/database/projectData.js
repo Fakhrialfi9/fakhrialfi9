@@ -6,7 +6,7 @@ const projectData = [
     description: `Developed Fresh Cart, a robust eCommerce platform designed to enhance online shopping experiences. Leveraged Vue.js and TypeScript to create a user-friendly interface, while Node.js and Express were used for backend services. Emphasized responsive design principles using HTML5 and CSS3 to ensure a seamless shopping experience, focusing on efficient product management and a streamlined checkout process.`,
     skills: ["Vue.js", "Node.js", "TypeScript", "JavaScript", "Express", "HTML5", "CSS3"],
     image: "/fakhrialfi9/image/freshcart.jpg",
-    website: "#",
+    website: "https://freshcart-rust-eta.vercel.app/",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const projectData = [
     description: `Developed a professional company profile website for Blessing CCTV using WordPress and Elementor. The site features a clean and elegant design with an easy-to-navigate layout, highlighting the company's CCTV solutions and services. Emphasized creating a strong online presence that effectively communicates the company’s expertise in security solutions.`,
     skills: ["WordPress", "Elementor"],
     image: "/fakhrialfi9/image/blessingcctv.jpg",
-    website: "#",
+    website: "https://blessingcctv.com/",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const projectData = [
     description: `Designed and developed an engaging website for Al - Azhar Syifa Budi Cibubur Primary School. The site features a user-friendly interface and modern design elements using React.js and Vite.js. The platform includes essential information about the school, events, and educational resources, crafted with HTML5 and CSS3 to enhance the school's online presence and communication.`,
     skills: ["React.js", "Vite.js", "JavaScript", "HTML5", "CSS3"],
     image: "/fakhrialfi9/image/alazharsyifabudi.jpg",
-    website: "#",
+    website: "https://alazharsyifabudi-cibubur.sch.id/",
   },
   {
     id: 6,
