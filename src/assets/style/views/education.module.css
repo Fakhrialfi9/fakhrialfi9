@@ -365,6 +365,7 @@
 .headline > h5 {
   font-size: 1.15rem;
   font-weight: 600;
+  text-align: right !important;
   color: var(--text-color-solid-0);
 }
 
