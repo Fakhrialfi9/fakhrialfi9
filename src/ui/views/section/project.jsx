@@ -14,7 +14,7 @@ const Project = () => {
   };
 
   return (
-    <section id='Experience' className={projectStyle.main}>
+    <section id='project' className={projectStyle.main}>
       <div className={projectStyle.project}>
         <div className='Container'>
           <div className={projectStyle.content}>

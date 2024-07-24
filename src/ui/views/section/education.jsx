@@ -6,7 +6,7 @@ import educationData from "../../../database/educationData.js"; // Gantilah deng
 
 const Experience = () => {
   return (
-    <section className={educationStyle.main}>
+    <section id='education' className={educationStyle.main}>
       <div className={educationStyle.education}>
         <div className='Container'>
           <div className={educationStyle.content}>

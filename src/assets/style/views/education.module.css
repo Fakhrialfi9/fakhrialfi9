@@ -419,6 +419,10 @@
   .information {
     padding: 0.5rem 1.25rem 0.5rem 0;
   }
+
+  .badges {
+    display: none !important;
+  }
 }
 
 /* ================================================================================================== */
@@ -441,5 +445,9 @@
   .heading > span > p {
     width: 100%;
     font-size: 1rem;
+  }
+
+  .badges {
+    display: none !important;
   }
 }

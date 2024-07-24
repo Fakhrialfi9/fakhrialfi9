@@ -294,7 +294,99 @@
 /* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 576px  ===================== */
 /* ================================================================================================== */
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
+  .content {
+    gap: 2rem;
+  }
+
+  .heading > span > h2 {
+    font-size: 2rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  .heading > span > h5 {
+    font-size: 0.85rem;
+  }
+
+  .heading > span > p {
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+
+  .marquee {
+    gap: 2.5rem;
+  }
+
+  .box {
+    width: 3.85rem;
+    max-width: 3.85rem;
+    height: 3.85rem;
+    max-height: 3.85rem;
+  }
+
+  .image {
+    width: 2.85rem;
+    max-width: 2.85rem;
+    height: 2.85rem;
+    max-height: 2.85rem;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 480px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .content {
+    gap: 3rem;
+  }
+
+  .heading > span > h2 {
+    font-size: 2.25rem;
+  }
+
+  .heading > span > h6 {
+    font-size: 1.15rem;
+    line-height: 1.55;
+  }
+
+  .heading > span > h5 {
+    font-size: 0.9rem;
+  }
+
+  .heading > span > p {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  .marquee {
+    gap: 2.5rem;
+  }
+
+  .box {
+    width: 4rem;
+    max-width: 4rem;
+    height: 4rem;
+    max-height: 4rem;
+  }
+
+  .image {
+    width: 3rem;
+    max-width: 3rem;
+    height: 3rem;
+    max-height: 3rem;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 576px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 481px) and (max-width: 576px) {
   .heading > span > h2 {
     font-size: 2.5rem;
   }

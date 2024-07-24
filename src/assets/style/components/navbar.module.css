@@ -38,6 +38,11 @@
   z-index: 9999;
 }
 
+.toggle,
+.sidebar {
+  display: none;
+}
+
 .content {
   box-sizing: border-box;
   display: flex;
@@ -131,4 +136,115 @@
 
 .content > ul > li:hover > a {
   color: var(--text-color-solid-500);
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 576px  ===================== */
+/* ================================================================================================== */
+
+@media (max-width: 576px) {
+  .content {
+    display: none !important;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    transform: none;
+    width: 3rem !important;
+    max-width: 3rem !important;
+    height: 3rem !important;
+    max-height: 3rem !important;
+    border-radius: var(--border-radius-md);
+  }
+
+  .toggle {
+    display: flex;
+    flex-direction: row;
+    width: 2.5rem;
+    max-width: 2.5rem;
+    height: 2.5rem;
+    max-height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin: 0 auto;
+    padding: 7rem 1.5rem;
+    background-color: white;
+    z-index: 999;
+    transform: translateX(-125%);
+    filter: blur(1rem);
+    transition: all 0.5s ease;
+    opacity: 0.25;
+  }
+
+  .sidebar.active {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .sidebar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: auto;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 2rem;
+  }
+
+  .sidebar > ul > li {
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: auto;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 0.5rem;
+  }
+
+  .sidebar > ul > li > a {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-color-solid-0);
+    transition: all 0.5s ease;
+  }
+}
+
+/* ================================================================================================== */
+/* ====================  T H I S  R E S P O N S I V E  M A X - W I D T H 768px  ===================== */
+/* ================================================================================================== */
+
+@media (min-width: 577px) and (max-width: 768px) {
 }

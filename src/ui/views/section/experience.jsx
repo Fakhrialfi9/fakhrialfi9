@@ -6,7 +6,7 @@ import experienceData from "../../../database/experienceData.js"; // Gantilah de
 
 const Experience = () => {
   return (
-    <section className={experienceStyle.main}>
+    <section id='experience' className={experienceStyle.main}>
       <div className={experienceStyle.experience}>
         <div className='Container'>
           <div className={experienceStyle.content}>

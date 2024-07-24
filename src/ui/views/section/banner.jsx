@@ -10,7 +10,7 @@ import profileData from "../../../database/profileData.js";
 
 const Banner = () => {
   return (
-    <header id='Banner' className={bannerStyle.main}>
+    <header id='profile' className={bannerStyle.main}>
       <div className={bannerStyle.header}>
         <div className={bannerStyle.shapeblur}></div>
         <div className={bannerStyle.GlowLine}></div>
